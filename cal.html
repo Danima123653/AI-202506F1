@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">ENTER FIRST NUMBER</label>
+    <input type="text"  id="num1"><br><br>
+    <label for="">ENTER SECOND NUMBER</label>
+    <input type="text"  id="num2"><br><br>
+    <p id="r"></p>
+    <button onclick="add()">+</button>
+    <button>-</button>
+    <button>*</button>
+    <button>/</button>
+    <script>
+        function add(){
+            var a=+document.getElementById("num1").value
+             var b=+document.getElementById("num2").value
+             var res=a+b;
+             document.getElementById("r").innerHTML=res;
+        }
+    </script>
+</body>
+</html>

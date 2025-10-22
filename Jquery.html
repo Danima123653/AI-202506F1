@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <p id="a">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates consectetur ipsam quaerat odit corrupti odio nesciunt repellendus ducimus, rerum ea sequi voluptatum voluptate reprehenderit laudantium iusto aspernatur? Adipisci labore dolores recusandae, facere officia accusamus, architecto deserunt placeat doloribus iste odio sint soluta, magnam vitae consequuntur? Incidunt fugiat repudiandae harum neque fuga ullam sequi in. Debitis quaerat nulla quos nesciunt dignissimos eos omnis magnam explicabo blanditiis, harum odit, dolorem illo. Sed nihil quas cumque itaque. Non veniam eligendi optio, hic cum molestias impedit vitae, assumenda dolore dolorem nam error. Aliquam consectetur, est aliquid, architecto ea quia enim velit ducimus reiciendis, totam labore ratione qui. Autem rem commodi nobis sunt a, voluptas quibusdam excepturi ipsum similique veniam veritatis magnam repudiandae voluptatum. Ipsam?</p>
+
+    <button id="btn">hide</button>
+     <button id="sh">Show</button>
+     <button id="b">BG</button>
+    <script>
+        $(document).ready(function(){
+$("#btn").click (function(){
+    $("#a").hide()
+});
+
+$("#sh").click (function(){
+    $("#a").show()
+});
+
+$("#b").click (function(){
+    $("#a").css("background-color","red");
+     $("#a").css("color","white");
+});
+        })
+    </script>
+</body>
+</html>
